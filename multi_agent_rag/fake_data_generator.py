@@ -68,12 +68,8 @@ def generate_patient_history():
             "Date": current_date.strftime("%Y-%m-%d"),
             "Chief Complaint": fake.sentence(nb_words=4),
             "Vitals": generate_vitals(),
-            "Assessment": random.sample(
-                conditions, random.randint(1, 3)
-            ),
-            "Medications": random.sample(
-                medications, random.randint(1, 4)
-            ),
+            "Assessment": random.sample(conditions, random.randint(1, 3)),
+            "Medications": random.sample(medications, random.randint(1, 4)),
             "Plan": fake.paragraph(nb_sentences=2),
         }
         history.append(visit)
@@ -86,9 +82,7 @@ def create_patient_file(patient_id):
     patient = {
         "Patient ID": patient_id,
         "Name": fake.name(),
-        "DOB": fake.date_of_birth(
-            minimum_age=18, maximum_age=90
-        ).strftime("%Y-%m-%d"),
+        "DOB": fake.date_of_birth(minimum_age=18, maximum_age=90).strftime("%Y-%m-%d"),
         "Gender": random.choice(["Male", "Female"]),
         "Contact": {
             "Phone": fake.phone_number(),
@@ -133,12 +127,8 @@ def create_patient_file(patient_id):
             for k, v in visit["Vitals"].items():
                 f.write(f"  {k}: {v}\n")
 
-            f.write(
-                f"\nAssessment: {', '.join(visit['Assessment'])}\n"
-            )
-            f.write(
-                f"Medications: {', '.join(visit['Medications'])}\n"
-            )
+            f.write(f"\nAssessment: {', '.join(visit['Assessment'])}\n")
+            f.write(f"Medications: {', '.join(visit['Medications'])}\n")
             f.write(f"Plan: {visit['Plan']}\n")
             f.write("-" * 50 + "\n")
 
@@ -147,9 +137,7 @@ def main():
     num_patients = 10  # Change this number to generate more or fewer patient records
     for i in range(num_patients):
         create_patient_file(f"P{str(i+1).zfill(6)}")
-    print(
-        f"Generated {num_patients} patient records in the 'docs' directory."
-    )
+    print(f"Generated {num_patients} patient records in the 'docs' directory.")
 
 
 if __name__ == "__main__":
