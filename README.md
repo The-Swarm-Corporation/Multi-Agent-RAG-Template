@@ -17,13 +17,25 @@ A production-ready template for building Multi-Agent RAG (Retrieval-Augmented Ge
 
 ## 🌟 Features
 
-- **Pre-configured Agent System**: Includes specialized agents for different tasks
-- **Document Processing**: Built-in RAG capabilities using LlamaIndex
-- **Flexible Architecture**: Easy to customize and extend for different use cases
-- **Production Ready**: Includes error handling, logging, and state management
-- **GROQ Integration**: Optimized for high-performance LLM inference
+- **Plug-and-Play Agent Architecture**
+  - Easily swap or modify agents without disrupting the system
+  - Add custom agents with specialized capabilities
+  - Define your own agent interaction patterns
+  - Scale from 2 to 100+ agents seamlessly
+  - Any LLM can be used, this template uses GROQ but you can use any other LLM such as OpenAI, Anthropic, Cohere, etc.
 
+- **Adaptable Document Processing**
+  - Support for any document format through custom extractors
+  - Flexible document storage options (local, cloud, or hybrid)
+  - Customizable chunking and embedding strategies
+  - Dynamic index updates without system restart
+  - Any RAG system can be used, this template uses LlamaIndexDB but you can use any other RAG system.
 
+- **Configurable Workflows**
+  - Design custom agent communication patterns
+  - Implement parallel or sequential processing
+  - Add conditional logic and branching workflows
+  - Adjust system behavior through environment variables
 
 
 ## 🚀 Quick Start
