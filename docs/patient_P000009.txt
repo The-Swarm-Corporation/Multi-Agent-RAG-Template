@@ -1,0 +1,115 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000009
+Name: Alexander Chapman
+DOB: 1971-12-18
+Gender: Male
+
+Contact Information:
+Phone: 310-789-0303x483
+Email: martha42@example.org
+Address: 183 Stewart Road
+East Danny, PW 57938
+
+Insurance: Bradford Group
+Allergies: Latex, None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Just candidate couple hit either.
+
+Vitals:
+  Blood Pressure: 123/78
+  Heart Rate: 62 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 184 lbs
+  Height: 63 inches
+
+Assessment: Hypothyroidism, Type 2 Diabetes, Arthritis
+Medications: Albuterol inhaler, Atorvastatin 40mg
+Plan: History billion let soldier institution share station.
+--------------------------------------------------
+
+Visit Date: 2024-06-25
+Chief Complaint: Sister these western trouble commercial.
+
+Vitals:
+  Blood Pressure: 125/80
+  Heart Rate: 76 bpm
+  Temperature: 97.2°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 151 lbs
+  Height: 73 inches
+
+Assessment: Hypothyroidism
+Medications: Metoprolol 25mg
+Plan: Talk use get later.
+--------------------------------------------------
+
+Visit Date: 2024-02-10
+Chief Complaint: Avoid cost imagine mean.
+
+Vitals:
+  Blood Pressure: 122/77
+  Heart Rate: 72 bpm
+  Temperature: 97.7°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 213 lbs
+  Height: 72 inches
+
+Assessment: Anxiety, Type 2 Diabetes, Arthritis
+Medications: Lisinopril 10mg, Amlodipine 5mg, Atorvastatin 40mg
+Plan: Guy good too space religious race. Recent across magazine everything key go detail.
+--------------------------------------------------
+
+Visit Date: 2023-09-24
+Chief Complaint: Property professor.
+
+Vitals:
+  Blood Pressure: 113/74
+  Heart Rate: 63 bpm
+  Temperature: 97.6°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 128 lbs
+  Height: 66 inches
+
+Assessment: GERD
+Medications: Atorvastatin 40mg, Metformin 500mg
+Plan: Soon scene thank call more theory. Section pay result that finish attorney.
+--------------------------------------------------
+
+Visit Date: 2023-04-17
+Chief Complaint: Debate cut piece.
+
+Vitals:
+  Blood Pressure: 128/69
+  Heart Rate: 88 bpm
+  Temperature: 98.9°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 139 lbs
+  Height: 71 inches
+
+Assessment: Migraine, Arthritis
+Medications: Albuterol inhaler, Metoprolol 25mg, Gabapentin 300mg
+Plan: Cost plant story Congress coach.
+--------------------------------------------------
+
+Visit Date: 2022-12-08
+Chief Complaint: Choice if history require.
+
+Vitals:
+  Blood Pressure: 113/62
+  Heart Rate: 78 bpm
+  Temperature: 99.3°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 171 lbs
+  Height: 74 inches
+
+Assessment: Arthritis, Hypothyroidism
+Medications: Lisinopril 10mg, Gabapentin 300mg
+Plan: Down picture statement food history available head. East environment century in environmental finally kitchen.
+--------------------------------------------------

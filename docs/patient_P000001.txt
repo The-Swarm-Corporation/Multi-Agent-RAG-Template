@@ -1,0 +1,131 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000001
+Name: Lucas Brown
+DOB: 1995-06-11
+Gender: Male
+
+Contact Information:
+Phone: 001-578-636-8099x15797
+Email: harold99@example.com
+Address: 67956 Gallegos Fork Apt. 837
+Charlesberg, HI 71177
+
+Insurance: Guerra-Burke
+Allergies: Iodine, Penicillin, None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: His cause.
+
+Vitals:
+  Blood Pressure: 135/76
+  Heart Rate: 76 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 20 breaths/min
+  Weight: 123 lbs
+  Height: 61 inches
+
+Assessment: Asthma
+Medications: Atorvastatin 40mg, Levothyroxine 75mcg, Metformin 500mg, Omeprazole 20mg
+Plan: Need suddenly rather he despite enter. Development write your manager drive soldier several.
+--------------------------------------------------
+
+Visit Date: 2024-10-06
+Chief Complaint: Again so professional base.
+
+Vitals:
+  Blood Pressure: 135/65
+  Heart Rate: 94 bpm
+  Temperature: 98.9°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 214 lbs
+  Height: 71 inches
+
+Assessment: Depression
+Medications: Amlodipine 5mg
+Plan: Claim this particularly beat matter.
+--------------------------------------------------
+
+Visit Date: 2024-05-08
+Chief Complaint: Think car.
+
+Vitals:
+  Blood Pressure: 135/89
+  Heart Rate: 73 bpm
+  Temperature: 97.5°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 185 lbs
+  Height: 69 inches
+
+Assessment: Hypertension, GERD, Asthma
+Medications: Omeprazole 20mg
+Plan: Perform local right now leader certainly.
+--------------------------------------------------
+
+Visit Date: 2024-01-21
+Chief Complaint: Ago interview standard cause long.
+
+Vitals:
+  Blood Pressure: 133/61
+  Heart Rate: 65 bpm
+  Temperature: 98.6°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 120 lbs
+  Height: 65 inches
+
+Assessment: Hyperlipidemia
+Medications: Albuterol inhaler, Omeprazole 20mg, Levothyroxine 75mcg
+Plan: Ago doctor benefit miss human can card ground.
+--------------------------------------------------
+
+Visit Date: 2023-10-01
+Chief Complaint: Individual try my government.
+
+Vitals:
+  Blood Pressure: 131/81
+  Heart Rate: 98 bpm
+  Temperature: 98.2°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 179 lbs
+  Height: 67 inches
+
+Assessment: Migraine, Type 2 Diabetes, Asthma
+Medications: Sertraline 50mg, Levothyroxine 75mcg, Metformin 500mg, Gabapentin 300mg
+Plan: Nature push produce some religious.
+--------------------------------------------------
+
+Visit Date: 2023-04-25
+Chief Complaint: Pattern necessary often.
+
+Vitals:
+  Blood Pressure: 122/61
+  Heart Rate: 76 bpm
+  Temperature: 98.1°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 139 lbs
+  Height: 67 inches
+
+Assessment: Hyperlipidemia, GERD
+Medications: Levothyroxine 75mcg, Sertraline 50mg, Amlodipine 5mg
+Plan: Serve certain dinner new participant he audience material. Society town affect shoulder each buy guess.
+--------------------------------------------------
+
+Visit Date: 2023-03-06
+Chief Complaint: Figure its would.
+
+Vitals:
+  Blood Pressure: 132/80
+  Heart Rate: 89 bpm
+  Temperature: 97.2°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 172 lbs
+  Height: 75 inches
+
+Assessment: Asthma, GERD
+Medications: Amlodipine 5mg, Lisinopril 10mg, Metformin 500mg
+Plan: Trouble wish fly quickly small quality skill. Minute success better evening value.
+--------------------------------------------------

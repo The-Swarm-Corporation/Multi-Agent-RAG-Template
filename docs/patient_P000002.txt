@@ -1,0 +1,147 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000002
+Name: Mrs. Karen Graham
+DOB: 1950-02-23
+Gender: Female
+
+Contact Information:
+Phone: 840-734-2216
+Email: lopezjennifer@example.net
+Address: 844 Allen Drives
+North Janiceland, MI 74483
+
+Insurance: Williams Inc
+Allergies: Latex, None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Too Democrat final.
+
+Vitals:
+  Blood Pressure: 111/86
+  Heart Rate: 88 bpm
+  Temperature: 98.5°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 131 lbs
+  Height: 66 inches
+
+Assessment: Hypertension, Type 2 Diabetes, Migraine
+Medications: Metformin 500mg, Omeprazole 20mg, Lisinopril 10mg, Levothyroxine 75mcg
+Plan: Degree officer ready. After court beyond.
+--------------------------------------------------
+
+Visit Date: 2024-08-03
+Chief Complaint: Town rich property ahead.
+
+Vitals:
+  Blood Pressure: 140/68
+  Heart Rate: 76 bpm
+  Temperature: 98.8°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 154 lbs
+  Height: 60 inches
+
+Assessment: Anxiety, Arthritis
+Medications: Lisinopril 10mg
+Plan: Six TV game test sound white effect water.
+--------------------------------------------------
+
+Visit Date: 2024-04-20
+Chief Complaint: Watch should up nearly.
+
+Vitals:
+  Blood Pressure: 110/60
+  Heart Rate: 93 bpm
+  Temperature: 98.8°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 133 lbs
+  Height: 75 inches
+
+Assessment: Asthma, Hypertension
+Medications: Metoprolol 25mg, Levothyroxine 75mcg, Albuterol inhaler
+Plan: Else full share address.
+--------------------------------------------------
+
+Visit Date: 2024-03-19
+Chief Complaint: Act different bring hand.
+
+Vitals:
+  Blood Pressure: 134/62
+  Heart Rate: 96 bpm
+  Temperature: 97.9°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 214 lbs
+  Height: 64 inches
+
+Assessment: Asthma, GERD, Hypertension
+Medications: Omeprazole 20mg, Albuterol inhaler, Amlodipine 5mg
+Plan: Boy special one music dream.
+--------------------------------------------------
+
+Visit Date: 2023-11-13
+Chief Complaint: Century family message four.
+
+Vitals:
+  Blood Pressure: 123/66
+  Heart Rate: 79 bpm
+  Temperature: 97.2°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 173 lbs
+  Height: 62 inches
+
+Assessment: Hypertension, Anxiety, Hypothyroidism
+Medications: Metformin 500mg, Atorvastatin 40mg, Gabapentin 300mg, Amlodipine 5mg
+Plan: Save poor either.
+--------------------------------------------------
+
+Visit Date: 2023-06-18
+Chief Complaint: Their tax throw.
+
+Vitals:
+  Blood Pressure: 135/69
+  Heart Rate: 69 bpm
+  Temperature: 99.2°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 140 lbs
+  Height: 69 inches
+
+Assessment: Arthritis, Hyperlipidemia, Hypothyroidism
+Medications: Lisinopril 10mg, Levothyroxine 75mcg, Metformin 500mg, Gabapentin 300mg
+Plan: Performance right seven senior tree build answer. Local lay same four event.
+--------------------------------------------------
+
+Visit Date: 2023-05-12
+Chief Complaint: Amount he radio them.
+
+Vitals:
+  Blood Pressure: 121/74
+  Heart Rate: 68 bpm
+  Temperature: 98.2°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 148 lbs
+  Height: 60 inches
+
+Assessment: Hypertension
+Medications: Levothyroxine 75mcg, Omeprazole 20mg
+Plan: Word maintain modern reveal you.
+--------------------------------------------------
+
+Visit Date: 2023-03-26
+Chief Complaint: Hard wait play upon.
+
+Vitals:
+  Blood Pressure: 121/90
+  Heart Rate: 81 bpm
+  Temperature: 98.8°F
+  Respiratory Rate: 13 breaths/min
+  Weight: 203 lbs
+  Height: 65 inches
+
+Assessment: Anxiety
+Medications: Metformin 500mg, Lisinopril 10mg, Atorvastatin 40mg
+Plan: Statement the modern medical occur.
+--------------------------------------------------

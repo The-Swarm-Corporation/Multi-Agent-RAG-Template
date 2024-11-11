@@ -1,0 +1,147 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000008
+Name: Steven Lambert
+DOB: 2006-08-21
+Gender: Male
+
+Contact Information:
+Phone: (403)219-4883x0849
+Email: whuber@example.org
+Address: 653 Cody Rue Suite 090
+East Summerstad, PA 96623
+
+Insurance: Warner-Schmidt
+Allergies: Morphine, Peanuts, Latex
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Drug spend organization.
+
+Vitals:
+  Blood Pressure: 128/64
+  Heart Rate: 87 bpm
+  Temperature: 98.4°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 158 lbs
+  Height: 67 inches
+
+Assessment: Arthritis, Depression
+Medications: Albuterol inhaler, Omeprazole 20mg, Gabapentin 300mg, Sertraline 50mg
+Plan: Break real model they none cell city.
+--------------------------------------------------
+
+Visit Date: 2024-09-02
+Chief Complaint: Choice car here interview street.
+
+Vitals:
+  Blood Pressure: 125/61
+  Heart Rate: 85 bpm
+  Temperature: 99.4°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 171 lbs
+  Height: 65 inches
+
+Assessment: Hypertension, Depression
+Medications: Amlodipine 5mg
+Plan: All already affect scientist current treatment kitchen. Interesting itself music themselves about fight.
+--------------------------------------------------
+
+Visit Date: 2024-04-11
+Chief Complaint: Answer keep she.
+
+Vitals:
+  Blood Pressure: 133/87
+  Heart Rate: 93 bpm
+  Temperature: 97.7°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 160 lbs
+  Height: 68 inches
+
+Assessment: Depression, Hyperlipidemia
+Medications: Omeprazole 20mg
+Plan: Different agency behavior citizen room.
+--------------------------------------------------
+
+Visit Date: 2024-02-11
+Chief Complaint: Scene choice professional book air.
+
+Vitals:
+  Blood Pressure: 139/74
+  Heart Rate: 60 bpm
+  Temperature: 98.8°F
+  Respiratory Rate: 20 breaths/min
+  Weight: 181 lbs
+  Height: 67 inches
+
+Assessment: GERD, Type 2 Diabetes
+Medications: Gabapentin 300mg, Metoprolol 25mg, Atorvastatin 40mg
+Plan: Rise lead property green cold choose analysis it. Lead surface institution rock.
+--------------------------------------------------
+
+Visit Date: 2023-08-22
+Chief Complaint: Have two.
+
+Vitals:
+  Blood Pressure: 139/86
+  Heart Rate: 69 bpm
+  Temperature: 98.5°F
+  Respiratory Rate: 20 breaths/min
+  Weight: 183 lbs
+  Height: 60 inches
+
+Assessment: Arthritis
+Medications: Gabapentin 300mg
+Plan: Scene age nothing let course increase.
+--------------------------------------------------
+
+Visit Date: 2023-04-09
+Chief Complaint: Century American goal father.
+
+Vitals:
+  Blood Pressure: 116/88
+  Heart Rate: 69 bpm
+  Temperature: 98.3°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 179 lbs
+  Height: 71 inches
+
+Assessment: Hypothyroidism, Hyperlipidemia
+Medications: Sertraline 50mg
+Plan: Be common likely head listen certain. Happy section but newspaper hot.
+--------------------------------------------------
+
+Visit Date: 2023-03-04
+Chief Complaint: Only pull girl.
+
+Vitals:
+  Blood Pressure: 116/70
+  Heart Rate: 95 bpm
+  Temperature: 98.9°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 146 lbs
+  Height: 74 inches
+
+Assessment: GERD, Hyperlipidemia, Anxiety
+Medications: Metoprolol 25mg
+Plan: Phone activity pattern thing nation economy art stock. Order effect owner natural.
+--------------------------------------------------
+
+Visit Date: 2022-11-18
+Chief Complaint: Up painting coach election.
+
+Vitals:
+  Blood Pressure: 122/68
+  Heart Rate: 61 bpm
+  Temperature: 99.2°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 218 lbs
+  Height: 64 inches
+
+Assessment: Hypertension, Depression, GERD
+Medications: Omeprazole 20mg, Lisinopril 10mg, Levothyroxine 75mcg
+Plan: Most my goal lose admit left.
+--------------------------------------------------

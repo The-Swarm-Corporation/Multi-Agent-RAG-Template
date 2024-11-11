@@ -1,0 +1,147 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000004
+Name: Jessica Roth
+DOB: 1945-04-12
+Gender: Female
+
+Contact Information:
+Phone: 555.659.8401x7982
+Email: randydoyle@example.org
+Address: 92426 Rowe Views
+South James, ID 94606
+
+Insurance: Rodriguez-Hernandez
+Allergies: Dairy
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Floor every job.
+
+Vitals:
+  Blood Pressure: 136/86
+  Heart Rate: 77 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 142 lbs
+  Height: 69 inches
+
+Assessment: Migraine, Depression, Hyperlipidemia
+Medications: Metformin 500mg
+Plan: Commercial value should Democrat member image.
+--------------------------------------------------
+
+Visit Date: 2024-08-10
+Chief Complaint: Upon leave.
+
+Vitals:
+  Blood Pressure: 135/76
+  Heart Rate: 69 bpm
+  Temperature: 98.3°F
+  Respiratory Rate: 20 breaths/min
+  Weight: 128 lbs
+  Height: 72 inches
+
+Assessment: Migraine
+Medications: Omeprazole 20mg
+Plan: Provide management official hair seven far.
+--------------------------------------------------
+
+Visit Date: 2024-07-10
+Chief Complaint: My approach outside.
+
+Vitals:
+  Blood Pressure: 140/68
+  Heart Rate: 62 bpm
+  Temperature: 97.6°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 177 lbs
+  Height: 62 inches
+
+Assessment: Depression, Hypothyroidism
+Medications: Albuterol inhaler, Atorvastatin 40mg, Metformin 500mg
+Plan: Chair within cost drive off. Own difficult worker garden case inside.
+--------------------------------------------------
+
+Visit Date: 2024-02-11
+Chief Complaint: Of just program teach.
+
+Vitals:
+  Blood Pressure: 123/79
+  Heart Rate: 69 bpm
+  Temperature: 98.1°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 163 lbs
+  Height: 63 inches
+
+Assessment: Migraine, Arthritis
+Medications: Albuterol inhaler, Amlodipine 5mg, Lisinopril 10mg
+Plan: And test night gas perform term price. Team leave industry cultural.
+--------------------------------------------------
+
+Visit Date: 2023-10-01
+Chief Complaint: Poor glass way.
+
+Vitals:
+  Blood Pressure: 127/72
+  Heart Rate: 78 bpm
+  Temperature: 98.5°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 124 lbs
+  Height: 67 inches
+
+Assessment: Hypertension, Asthma, GERD
+Medications: Sertraline 50mg, Atorvastatin 40mg, Lisinopril 10mg, Metformin 500mg
+Plan: Either think expert report care.
+--------------------------------------------------
+
+Visit Date: 2023-05-18
+Chief Complaint: Create herself walk thank short.
+
+Vitals:
+  Blood Pressure: 115/77
+  Heart Rate: 86 bpm
+  Temperature: 97.8°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 122 lbs
+  Height: 62 inches
+
+Assessment: Anxiety, GERD
+Medications: Albuterol inhaler, Metoprolol 25mg
+Plan: Side door blue seek himself because before subject.
+--------------------------------------------------
+
+Visit Date: 2023-03-03
+Chief Complaint: Country probably.
+
+Vitals:
+  Blood Pressure: 123/64
+  Heart Rate: 84 bpm
+  Temperature: 97.7°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 187 lbs
+  Height: 75 inches
+
+Assessment: GERD, Anxiety
+Medications: Atorvastatin 40mg, Levothyroxine 75mcg
+Plan: Law position reflect pull available never science.
+--------------------------------------------------
+
+Visit Date: 2022-11-02
+Chief Complaint: Price far dark wish.
+
+Vitals:
+  Blood Pressure: 131/81
+  Heart Rate: 93 bpm
+  Temperature: 97.9°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 148 lbs
+  Height: 73 inches
+
+Assessment: GERD
+Medications: Levothyroxine 75mcg
+Plan: Certainly course free town team.
+--------------------------------------------------

@@ -1,5 +1,4 @@
 swarms
 loguru
-python-dotenv
-pyyaml
 swarm-models
+llama-index

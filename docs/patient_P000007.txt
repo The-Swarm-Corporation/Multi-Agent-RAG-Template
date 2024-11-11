@@ -1,0 +1,99 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000007
+Name: Christopher Lopez
+DOB: 1962-04-08
+Gender: Female
+
+Contact Information:
+Phone: (986)892-4508x2946
+Email: seanhinton@example.net
+Address: 8695 Haas Spring
+Mitchellfurt, KS 55672
+
+Insurance: Brown Inc
+Allergies: Aspirin, Penicillin
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Write black purpose instead.
+
+Vitals:
+  Blood Pressure: 139/75
+  Heart Rate: 84 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 183 lbs
+  Height: 66 inches
+
+Assessment: GERD
+Medications: Omeprazole 20mg, Metoprolol 25mg
+Plan: Someone home officer however term past trip imagine.
+--------------------------------------------------
+
+Visit Date: 2024-06-25
+Chief Complaint: Partner decide of.
+
+Vitals:
+  Blood Pressure: 139/73
+  Heart Rate: 93 bpm
+  Temperature: 98.6°F
+  Respiratory Rate: 19 breaths/min
+  Weight: 130 lbs
+  Height: 69 inches
+
+Assessment: Hyperlipidemia, Migraine
+Medications: Metoprolol 25mg, Albuterol inhaler, Metformin 500mg
+Plan: Alone our meeting approach listen as. Week rest center example police.
+--------------------------------------------------
+
+Visit Date: 2024-01-17
+Chief Complaint: Energy learn forward.
+
+Vitals:
+  Blood Pressure: 127/86
+  Heart Rate: 97 bpm
+  Temperature: 98.1°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 183 lbs
+  Height: 67 inches
+
+Assessment: Anxiety
+Medications: Sertraline 50mg, Omeprazole 20mg, Albuterol inhaler, Metformin 500mg
+Plan: Pattern team spring civil decision argue Mrs. Develop herself however statement anything consider may.
+--------------------------------------------------
+
+Visit Date: 2023-10-29
+Chief Complaint: Like maintain.
+
+Vitals:
+  Blood Pressure: 118/73
+  Heart Rate: 63 bpm
+  Temperature: 97.6°F
+  Respiratory Rate: 20 breaths/min
+  Weight: 188 lbs
+  Height: 62 inches
+
+Assessment: Arthritis, Depression, Hypothyroidism
+Medications: Albuterol inhaler, Metformin 500mg
+Plan: Direction certainly administration. Quite although crime only should seek.
+--------------------------------------------------
+
+Visit Date: 2023-05-02
+Chief Complaint: Also property capital herself computer.
+
+Vitals:
+  Blood Pressure: 112/63
+  Heart Rate: 76 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 158 lbs
+  Height: 64 inches
+
+Assessment: Depression, Anxiety
+Medications: Albuterol inhaler
+Plan: Important father most then billion necessary someone.
+--------------------------------------------------

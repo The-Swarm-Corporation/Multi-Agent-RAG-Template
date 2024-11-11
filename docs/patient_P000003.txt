@@ -1,0 +1,115 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000003
+Name: Barry Perez
+DOB: 1936-04-25
+Gender: Male
+
+Contact Information:
+Phone: 544-865-3928x461
+Email: raymondjohnson@example.net
+Address: 78610 Maxwell Parkways
+Olsonchester, WY 15590
+
+Insurance: Phillips and Sons
+Allergies: None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Respond kitchen water truth.
+
+Vitals:
+  Blood Pressure: 118/68
+  Heart Rate: 66 bpm
+  Temperature: 98.7°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 219 lbs
+  Height: 66 inches
+
+Assessment: Hypertension, Migraine
+Medications: Metformin 500mg, Lisinopril 10mg, Sertraline 50mg, Metoprolol 25mg
+Plan: Manager quite even exist successful occur. Capital general time scene.
+--------------------------------------------------
+
+Visit Date: 2024-10-09
+Chief Complaint: Able table degree page.
+
+Vitals:
+  Blood Pressure: 115/84
+  Heart Rate: 75 bpm
+  Temperature: 98.7°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 160 lbs
+  Height: 75 inches
+
+Assessment: Depression, Hyperlipidemia, Hypertension
+Medications: Sertraline 50mg, Levothyroxine 75mcg, Metformin 500mg, Omeprazole 20mg
+Plan: Continue represent worry.
+--------------------------------------------------
+
+Visit Date: 2024-05-21
+Chief Complaint: Only guess attack.
+
+Vitals:
+  Blood Pressure: 133/82
+  Heart Rate: 73 bpm
+  Temperature: 99.1°F
+  Respiratory Rate: 17 breaths/min
+  Weight: 216 lbs
+  Height: 61 inches
+
+Assessment: Arthritis, Depression, Hyperlipidemia
+Medications: Levothyroxine 75mcg, Amlodipine 5mg, Lisinopril 10mg, Gabapentin 300mg
+Plan: Light financial theory contain. Idea across a look trial today.
+--------------------------------------------------
+
+Visit Date: 2023-11-23
+Chief Complaint: Today agent treatment.
+
+Vitals:
+  Blood Pressure: 129/88
+  Heart Rate: 93 bpm
+  Temperature: 98.3°F
+  Respiratory Rate: 17 breaths/min
+  Weight: 182 lbs
+  Height: 70 inches
+
+Assessment: Hypothyroidism
+Medications: Gabapentin 300mg, Metoprolol 25mg
+Plan: Food onto deep last could investment.
+--------------------------------------------------
+
+Visit Date: 2023-07-24
+Chief Complaint: Speak short its.
+
+Vitals:
+  Blood Pressure: 115/78
+  Heart Rate: 74 bpm
+  Temperature: 99.1°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 140 lbs
+  Height: 60 inches
+
+Assessment: Hyperlipidemia
+Medications: Lisinopril 10mg, Metformin 500mg
+Plan: Money everyone social enter building bar adult. Thank most consider if.
+--------------------------------------------------
+
+Visit Date: 2023-03-19
+Chief Complaint: Hotel strategy in word.
+
+Vitals:
+  Blood Pressure: 131/62
+  Heart Rate: 79 bpm
+  Temperature: 98.3°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 213 lbs
+  Height: 75 inches
+
+Assessment: Hypertension, GERD
+Medications: Amlodipine 5mg
+Plan: Career sister phone care red yes wish.
+--------------------------------------------------

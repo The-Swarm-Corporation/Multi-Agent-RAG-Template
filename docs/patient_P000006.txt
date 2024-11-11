@@ -1,0 +1,83 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000006
+Name: Mary Jensen
+DOB: 1948-05-21
+Gender: Female
+
+Contact Information:
+Phone: +1-520-212-8525x0761
+Email: summerslinda@example.com
+Address: 32696 Sandoval Brooks
+Amandahaven, MD 10097
+
+Insurance: Davis Group
+Allergies: None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Research resource statement.
+
+Vitals:
+  Blood Pressure: 139/87
+  Heart Rate: 74 bpm
+  Temperature: 97.6°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 164 lbs
+  Height: 71 inches
+
+Assessment: Hypertension, Hypothyroidism, Migraine
+Medications: Lisinopril 10mg, Metoprolol 25mg
+Plan: Prepare investment opportunity condition while attack.
+--------------------------------------------------
+
+Visit Date: 2024-07-28
+Chief Complaint: Million every also.
+
+Vitals:
+  Blood Pressure: 137/82
+  Heart Rate: 63 bpm
+  Temperature: 97.2°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 196 lbs
+  Height: 68 inches
+
+Assessment: Arthritis, Anxiety
+Medications: Atorvastatin 40mg
+Plan: Real measure probably exactly there late bed light.
+--------------------------------------------------
+
+Visit Date: 2024-06-09
+Chief Complaint: Collection oil quite central analysis.
+
+Vitals:
+  Blood Pressure: 119/70
+  Heart Rate: 66 bpm
+  Temperature: 97.1°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 140 lbs
+  Height: 63 inches
+
+Assessment: Depression, Arthritis, Type 2 Diabetes
+Medications: Metoprolol 25mg
+Plan: Road thank clear cultural natural American word.
+--------------------------------------------------
+
+Visit Date: 2024-02-20
+Chief Complaint: Huge guess street population.
+
+Vitals:
+  Blood Pressure: 111/80
+  Heart Rate: 77 bpm
+  Temperature: 98.3°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 130 lbs
+  Height: 70 inches
+
+Assessment: Hypothyroidism
+Medications: Atorvastatin 40mg, Omeprazole 20mg, Lisinopril 10mg
+Plan: Ball standard next no.
+--------------------------------------------------

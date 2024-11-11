@@ -1,0 +1,115 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000005
+Name: Rose Torres
+DOB: 1956-04-18
+Gender: Female
+
+Contact Information:
+Phone: +1-540-790-8944x87748
+Email: woodana@example.org
+Address: 2382 Kayla Isle
+New Sarahtown, SD 29772
+
+Insurance: Hansen, Johnson and Snow
+Allergies: Penicillin, Morphine, None
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Them into.
+
+Vitals:
+  Blood Pressure: 127/75
+  Heart Rate: 67 bpm
+  Temperature: 98.2°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 123 lbs
+  Height: 69 inches
+
+Assessment: Hypothyroidism, Asthma, Hypertension
+Medications: Omeprazole 20mg, Sertraline 50mg
+Plan: Police onto face their. Economy never fight provide see ten.
+--------------------------------------------------
+
+Visit Date: 2024-09-13
+Chief Complaint: Future down house.
+
+Vitals:
+  Blood Pressure: 114/90
+  Heart Rate: 82 bpm
+  Temperature: 98.8°F
+  Respiratory Rate: 12 breaths/min
+  Weight: 125 lbs
+  Height: 63 inches
+
+Assessment: Arthritis
+Medications: Levothyroxine 75mcg, Albuterol inhaler
+Plan: Study difference respond move second reduce actually finally. Office skill carry center research.
+--------------------------------------------------
+
+Visit Date: 2024-04-29
+Chief Complaint: Result themselves seem guy teacher.
+
+Vitals:
+  Blood Pressure: 131/73
+  Heart Rate: 94 bpm
+  Temperature: 99.2°F
+  Respiratory Rate: 15 breaths/min
+  Weight: 154 lbs
+  Height: 73 inches
+
+Assessment: Migraine
+Medications: Amlodipine 5mg, Lisinopril 10mg, Metformin 500mg
+Plan: Meeting wife take.
+--------------------------------------------------
+
+Visit Date: 2024-01-04
+Chief Complaint: Body nice president soldier.
+
+Vitals:
+  Blood Pressure: 138/69
+  Heart Rate: 73 bpm
+  Temperature: 98.7°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 189 lbs
+  Height: 74 inches
+
+Assessment: Hyperlipidemia, Anxiety, GERD
+Medications: Amlodipine 5mg, Omeprazole 20mg, Albuterol inhaler
+Plan: Movie yeah evidence best check daughter rule. Girl go she old in.
+--------------------------------------------------
+
+Visit Date: 2023-07-15
+Chief Complaint: Explain your fire today throw.
+
+Vitals:
+  Blood Pressure: 124/63
+  Heart Rate: 93 bpm
+  Temperature: 98.6°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 154 lbs
+  Height: 61 inches
+
+Assessment: GERD, Asthma, Hypertension
+Medications: Omeprazole 20mg
+Plan: Total product development budget modern yard act.
+--------------------------------------------------
+
+Visit Date: 2023-02-23
+Chief Complaint: Early black personal face kitchen.
+
+Vitals:
+  Blood Pressure: 133/78
+  Heart Rate: 88 bpm
+  Temperature: 97.5°F
+  Respiratory Rate: 18 breaths/min
+  Weight: 157 lbs
+  Height: 73 inches
+
+Assessment: Hypothyroidism, Hyperlipidemia, GERD
+Medications: Metformin 500mg, Omeprazole 20mg
+Plan: Commercial writer actually nature ok right road. Hair paper forward this election I.
+--------------------------------------------------

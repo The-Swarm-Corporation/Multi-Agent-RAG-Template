@@ -1,0 +1,83 @@
+PATIENT MEDICAL RECORD
+==================================================
+
+Patient ID: P000010
+Name: Dr. Melissa Lopez
+DOB: 1969-03-28
+Gender: Female
+
+Contact Information:
+Phone: 841.251.1042x63746
+Email: wardamanda@example.org
+Address: 7888 Armstrong Circles Apt. 208
+Jessemouth, VI 06869
+
+Insurance: Maxwell, Nunez and Barker
+Allergies: Dairy, Morphine
+
+MEDICAL HISTORY
+--------------------------------------------------
+
+Visit Date: 2024-11-11
+Chief Complaint: Dark memory indeed particularly outside.
+
+Vitals:
+  Blood Pressure: 129/70
+  Heart Rate: 78 bpm
+  Temperature: 97.5°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 133 lbs
+  Height: 68 inches
+
+Assessment: Hypothyroidism, Migraine
+Medications: Lisinopril 10mg, Omeprazole 20mg, Sertraline 50mg
+Plan: Challenge manager difference degree listen not tell eat.
+--------------------------------------------------
+
+Visit Date: 2024-09-11
+Chief Complaint: Describe around line.
+
+Vitals:
+  Blood Pressure: 132/75
+  Heart Rate: 76 bpm
+  Temperature: 97.3°F
+  Respiratory Rate: 17 breaths/min
+  Weight: 178 lbs
+  Height: 68 inches
+
+Assessment: Arthritis, GERD, Anxiety
+Medications: Amlodipine 5mg
+Plan: Evening affect than address husband.
+--------------------------------------------------
+
+Visit Date: 2024-07-08
+Chief Complaint: All bit more.
+
+Vitals:
+  Blood Pressure: 128/63
+  Heart Rate: 62 bpm
+  Temperature: 97.4°F
+  Respiratory Rate: 16 breaths/min
+  Weight: 171 lbs
+  Height: 65 inches
+
+Assessment: Arthritis
+Medications: Levothyroxine 75mcg, Lisinopril 10mg, Omeprazole 20mg
+Plan: Wish parent second stop. South certain thank probably least glass.
+--------------------------------------------------
+
+Visit Date: 2024-05-10
+Chief Complaint: Space summer.
+
+Vitals:
+  Blood Pressure: 126/81
+  Heart Rate: 92 bpm
+  Temperature: 99.2°F
+  Respiratory Rate: 14 breaths/min
+  Weight: 171 lbs
+  Height: 63 inches
+
+Assessment: Hypothyroidism
+Medications: Gabapentin 300mg
+Plan: Government threat national politics laugh start indeed. Recently act rich fire.
+--------------------------------------------------
