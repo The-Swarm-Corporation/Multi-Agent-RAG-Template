@@ -1,3 +1,4 @@
+import os
 import pinecone
 from typing import Optional, List
 from pathlib import Path
@@ -62,12 +63,17 @@ class LlamaPineconeDB:
         """Clean up Pinecone resources."""
         pinecone.deinit()
 
-# # Example usage
-# llama_pinecone_db = LlamaPineconeDB(
-#     data_dir="docs",
-#     pinecone_api_key="your-pinecone-api-key",
-#     pinecone_env="us-west1-gcp"
-# )
-# response = llama_pinecone_db.query("What is the medical history of patient 1?")
-# print(response)
-# llama_pinecone_db.close()
+# Initialize the Pinecone DB using API key from environment variables
+pinecone_api_key = os.getenv("PINECONE_API_KEY")  # Ensure this is set in your environment
+
+if pinecone_api_key:
+    llama_pinecone_db = LlamaPineconeDB(
+        data_dir="docs",
+        pinecone_api_key=pinecone_api_key,
+        pinecone_env="us-west1-gcp"
+    )
+    response = llama_pinecone_db.query("What is the medical history of patient 1?")
+    print(response)
+    llama_pinecone_db.close()
+else:
+    logger.error("Pinecone API key not found. Please set the PINECONE_API_KEY environment variable.")

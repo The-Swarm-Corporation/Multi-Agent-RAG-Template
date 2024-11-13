@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from swarms import Agent
 from swarm_models import OpenAIChat
+from multi_agent_rag.memory import LlamaIndexDB
 
 load_dotenv()
 
@@ -16,11 +17,18 @@ model = OpenAIChat(
     temperature=0.1,
 )
 
+# Initialize memory system
+memory_system = LlamaIndexDB(
+    data_dir="docs",  # Directory containing medical documents
+    filename_as_id=True,  # Use filenames as document identifiers
+    recursive=True,  # Search subdirectories
+    similarity_top_k=10,  # Return top 10 most relevant documents
+)
 
 # Initialize specialized medical agents
 medical_data_extractor = Agent(
     agent_name="Medical-Data-Extractor",
-    system_prompt="You are a specialized medical data extraction expert, trained in processing and analyzing clinical data, lab results, medical imaging reports, and patient records. Your role is to carefully extract relevant medical information while maintaining strict HIPAA compliance and patient confidentiality. Focus on identifying key clinical indicators, test results, vital signs, medication histories, and relevant patient history. Pay special attention to temporal relationships between symptoms, treatments, and outcomes. Ensure all extracted data maintains proper medical context and terminology.",
+    system_prompt="You are a specialized medical data extraction expert, trained in processing and analyzing clinical data, lab results, medical imaging reports, and patient records. Your role is to carefully extract relevant medical information while maintaining strict HIPAA compliance and patient confidentiality. Focus on identifying key clinical indicators, test results, vital signs, medication histories, and relevant patient history. Ensure all extracted data maintains proper medical context and terminology.",
     llm=model,
     max_loops=1,
     autosave=True,
@@ -31,6 +39,7 @@ medical_data_extractor = Agent(
     retry_attempts=1,
     context_length=200000,
     output_type="string",
+    memory_system=memory_system,  # Attach memory system for retrieval
 )
 
 diagnostic_specialist = Agent(
@@ -46,6 +55,7 @@ diagnostic_specialist = Agent(
     retry_attempts=1,
     context_length=200000,
     output_type="string",
+    memory_system=memory_system,  # Attach memory system for retrieval
 )
 
 treatment_planner = Agent(
@@ -61,6 +71,7 @@ treatment_planner = Agent(
     retry_attempts=1,
     context_length=200000,
     output_type="string",
+    memory_system=memory_system,  # Attach memory system for retrieval
 )
 
 specialist_consultant = Agent(
@@ -76,6 +87,7 @@ specialist_consultant = Agent(
     retry_attempts=1,
     context_length=200000,
     output_type="string",
+    memory_system=memory_system,  # Attach memory system for retrieval
 )
 
 patient_care_coordinator = Agent(
@@ -91,4 +103,5 @@ patient_care_coordinator = Agent(
     retry_attempts=1,
     context_length=200000,
     output_type="string",
+    memory_system=memory_system,  # Attach memory system for retrieval
 )
