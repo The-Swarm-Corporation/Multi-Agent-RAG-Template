@@ -1,107 +1,73 @@
-from typing import Optional
+import pinecone
+from typing import Optional, List
 from pathlib import Path
 from loguru import logger
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.core import SimpleDirectoryReader
+from llama_index.embeddings import get_embedding
 
+class LlamaPineconeDB:
+    """Manage document indexing and querying using Pinecone and LlamaIndex for memory."""
 
-class LlamaIndexDB:
-    """A class to manage document indexing and querying using LlamaIndex.
-
-    This class provides functionality to add documents from a directory and query the indexed documents.
-
-    Args:
-        data_dir (str): Directory containing documents to index. Defaults to "docs".
-        **kwargs: Additional arguments passed to SimpleDirectoryReader and VectorStoreIndex.
-            SimpleDirectoryReader kwargs:
-                - filename_as_id (bool): Use filenames as document IDs
-                - recursive (bool): Recursively read subdirectories
-                - required_exts (List[str]): Only read files with these extensions
-                - exclude_hidden (bool): Skip hidden files
-
-            VectorStoreIndex kwargs:
-                - service_context: Custom service context
-                - embed_model: Custom embedding model
-                - similarity_top_k (int): Number of similar docs to retrieve
-                - store_nodes_override (bool): Override node storage
-    """
-
-    def __init__(self, data_dir: str = "docs", **kwargs) -> None:
-        """Initialize the LlamaIndexDB with an empty index.
-
-        Args:
-            data_dir (str): Directory containing documents to index
-            **kwargs: Additional arguments for SimpleDirectoryReader and VectorStoreIndex
-        """
+    def __init__(self, data_dir: str = "docs", pinecone_api_key: str = "", pinecone_env: str = "us-west1-gcp") -> None:
         self.data_dir = data_dir
-        self.index: Optional[VectorStoreIndex] = None
-        self.reader_kwargs = {
-            k: v
-            for k, v in kwargs.items()
-            if k in SimpleDirectoryReader.__init__.__code__.co_varnames
-        }
-        self.index_kwargs = {
-            k: v for k, v in kwargs.items() if k not in self.reader_kwargs
-        }
+        self.index = None
+        
+        # Initialize Pinecone
+        pinecone.init(api_key=pinecone_api_key, environment=pinecone_env)
+        self.pinecone_index = pinecone.Index("llama-memory-index")  # Change index name as needed
 
-        logger.info("Initialized LlamaIndexDB")
+        logger.info("Initialized LlamaPineconeDB")
         data_path = Path(self.data_dir)
         if not data_path.exists():
             logger.error(f"Directory not found: {self.data_dir}")
             raise FileNotFoundError(f"Directory {self.data_dir} does not exist")
+        
+        self.add_documents()
 
+    def add_documents(self) -> None:
+        """Read and index documents into Pinecone."""
         try:
-            documents = SimpleDirectoryReader(
-                self.data_dir, **self.reader_kwargs
-            ).load_data()
-            self.index = VectorStoreIndex.from_documents(documents, **self.index_kwargs)
-            logger.success(f"Successfully indexed documents from {self.data_dir}")
+            documents = SimpleDirectoryReader(self.data_dir).load_data()
+            for doc in documents:
+                embedding = get_embedding(doc.text)  # Get embedding for document text
+                self.pinecone_index.upsert([(doc.id, embedding)])
+            logger.success(f"Documents indexed successfully from {self.data_dir}")
         except Exception as e:
             logger.error(f"Error indexing documents: {str(e)}")
             raise
 
-    def query(self, query: str, **kwargs) -> str:
-        """Query the indexed documents.
+    def query(self, query: str, top_k: int = 5) -> List[str]:
+        """Retrieve similar documents using Pinecone and provide memory.
 
         Args:
-            query (str): The query string to search for
-            **kwargs: Additional arguments passed to the query engine
-                - similarity_top_k (int): Number of similar documents to retrieve
-                - streaming (bool): Enable streaming response
-                - response_mode (str): Response synthesis mode
-                - max_tokens (int): Maximum tokens in response
+            query (str): The query string.
+            top_k (int): Number of similar documents to retrieve.
 
         Returns:
-            str: The response from the query engine
-
-        Raises:
-            ValueError: If no documents have been indexed yet
+            List[str]: List of top-k similar document texts.
         """
-        if self.index is None:
-            logger.error("No documents have been indexed yet")
-            raise ValueError("Must add documents before querying")
-
         try:
-            query_engine = self.index.as_query_engine(**kwargs)
-            response = query_engine.query(query)
-            print(response)
-            logger.info(f"Successfully queried: {query}")
-            return str(response)
+            query_embedding = get_embedding(query)
+            results = self.pinecone_index.query(query_embedding, top_k=top_k, include_values=True)
+
+            # Retrieve top documents
+            top_docs = [match['text'] for match in results['matches']]
+            logger.info(f"Retrieved {len(top_docs)} documents for query: {query}")
+            return top_docs
         except Exception as e:
             logger.error(f"Error during query: {str(e)}")
             raise
 
+    def close(self):
+        """Clean up Pinecone resources."""
+        pinecone.deinit()
 
 # # Example usage
-# llama_index_db = LlamaIndexDB(
+# llama_pinecone_db = LlamaPineconeDB(
 #     data_dir="docs",
-#     filename_as_id=True,
-#     recursive=True,
-#     required_exts=[".txt", ".pdf", ".docx"],
-#     similarity_top_k=3
+#     pinecone_api_key="your-pinecone-api-key",
+#     pinecone_env="us-west1-gcp"
 # )
-# response = llama_index_db.query(
-#     "What is the medical history of patient 1?",
-#     streaming=True,
-#     response_mode="compact"
-# )
+# response = llama_pinecone_db.query("What is the medical history of patient 1?")
 # print(response)
+# llama_pinecone_db.close()
