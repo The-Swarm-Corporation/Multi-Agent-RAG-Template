@@ -1,50 +1,33 @@
+import os
+import pinecone
 from faker import Faker
 import random
 from datetime import datetime, timedelta
-import os
+from llama_index.embeddings import get_embedding
+from llama_index import SimpleVectorStore
 
 fake = Faker()
 
 # Medical-specific data
 conditions = [
-    "Hypertension",
-    "Type 2 Diabetes",
-    "Asthma",
-    "Arthritis",
-    "Depression",
-    "Anxiety",
-    "GERD",
-    "Migraine",
-    "Hypothyroidism",
-    "Hyperlipidemia",
+    "Hypertension", "Type 2 Diabetes", "Asthma", "Arthritis", "Depression",
+    "Anxiety", "GERD", "Migraine", "Hypothyroidism", "Hyperlipidemia",
 ]
 
 medications = [
-    "Lisinopril 10mg",
-    "Metformin 500mg",
-    "Albuterol inhaler",
-    "Sertraline 50mg",
-    "Omeprazole 20mg",
-    "Levothyroxine 75mcg",
-    "Atorvastatin 40mg",
-    "Amlodipine 5mg",
-    "Metoprolol 25mg",
-    "Gabapentin 300mg",
+    "Lisinopril 10mg", "Metformin 500mg", "Albuterol inhaler", "Sertraline 50mg",
+    "Omeprazole 20mg", "Levothyroxine 75mcg", "Atorvastatin 40mg", "Amlodipine 5mg",
+    "Metoprolol 25mg", "Gabapentin 300mg",
 ]
 
 allergies = [
-    "Penicillin",
-    "Sulfa",
-    "Latex",
-    "Peanuts",
-    "Shellfish",
-    "Iodine",
-    "Aspirin",
-    "Morphine",
-    "None",
-    "Dairy",
+    "Penicillin", "Sulfa", "Latex", "Peanuts", "Shellfish", "Iodine", "Aspirin", 
+    "Morphine", "None", "Dairy",
 ]
 
+# Initialize Pinecone
+pinecone.init(api_key=os.getenv("PINECONE_API_KEY"), environment=os.getenv("PINECONE_ENV"))
+pinecone_index = pinecone.Index("medical")  # for our medical example, update with your actual index name
 
 def generate_vitals():
     return {
@@ -56,11 +39,9 @@ def generate_vitals():
         "Height": f"{random.randint(60,75)} inches",
     }
 
-
 def generate_patient_history():
     num_visits = random.randint(3, 8)
     history = []
-
     current_date = datetime.now()
 
     for _ in range(num_visits):
@@ -77,8 +58,14 @@ def generate_patient_history():
 
     return history
 
+def send_to_pinecone(patient_id, document_text):
+    """Embed and index patient document to Pinecone."""
+    embedding = get_embedding(document_text)  # Generate embedding for the document text
+    # Upsert the embedding to the Pinecone index
+    pinecone_index.upsert([(patient_id, embedding)])  # Ensure this format matches Pinecone's expected input
 
 def create_patient_file(patient_id):
+    """Create a patient record and send it to Pinecone."""
     patient = {
         "Patient ID": patient_id,
         "Name": fake.name(),
@@ -132,13 +119,19 @@ def create_patient_file(patient_id):
             f.write(f"Plan: {visit['Plan']}\n")
             f.write("-" * 50 + "\n")
 
+    # Send patient file to Pinecone after creation
+    with open(filename, "r") as f:
+        document_text = f.read()
+    send_to_pinecone(patient_id, document_text)
 
 def main():
     num_patients = 10  # Change this number to generate more or fewer patient records
     for i in range(num_patients):
         create_patient_file(f"P{str(i+1).zfill(6)}")
-    print(f"Generated {num_patients} patient records in the 'docs' directory.")
-
+    print(f"Generated {num_patients} patient records in the 'docs' directory and indexed them in Pinecone.")
 
 if __name__ == "__main__":
     main()
+
+    # Cleanup Pinecone at the end
+    pinecone.deinit()

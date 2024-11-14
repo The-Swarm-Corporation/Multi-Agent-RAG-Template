@@ -2,3 +2,4 @@ swarms
 loguru
 swarm-models
 llama-index
+pinecone-client

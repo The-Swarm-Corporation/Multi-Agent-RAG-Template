@@ -1,3 +1,13 @@
+
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the workspace directory from environment variables
+WORKSPACE_DIR = os.getenv("WORKSPACE_DIR")
+os.environ["WORKSPACE_DIR"] = WORKSPACE_DIR
 # Import the AgentRearrange class for coordinating multiple agents
 from swarms import AgentRearrange
 
@@ -30,7 +40,6 @@ router = AgentRearrange(
         data_dir="docs",  # Directory containing medical documents
         filename_as_id=True,  # Use filenames as document identifiers
         recursive=True,  # Search subdirectories
-        # required_exts=[".txt", ".pdf", ".docx"],  # Supported file types
         similarity_top_k=10,  # Return top 10 most relevant documents
     ),
     # Define the sequential flow of information between agents
@@ -40,6 +49,5 @@ router = AgentRearrange(
 # Example usage
 if __name__ == "__main__":
     # Run a comprehensive medical analysis task for patient Lucas Brown
-    router.run(
-        "Analyze this Lucas Brown's medical data to provide a diagnosis and treatment plan"
-    )
+    patient_data = "Patient Lucas Brown's medical data goes here."  # Example input
+    router.run(patient_data)  # Pass the patient data through the agent flow
