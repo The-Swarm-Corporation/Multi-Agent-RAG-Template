@@ -2,3 +2,8 @@ swarms
 loguru
 swarm-models
 llama-index
+pinecone
+sentence-transformers
+tiktoken
+numpy
+asyncio
