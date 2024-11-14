@@ -1,6 +1,12 @@
 
 import os
-WORKSPACE_DIR = "C:/Users/Patrick Devaney/Desktop/Multi-Agent-RAG-Template/multi_agent_rag"
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the workspace directory from environment variables
+WORKSPACE_DIR = os.getenv("WORKSPACE_DIR")
 os.environ["WORKSPACE_DIR"] = WORKSPACE_DIR
 # Import the AgentRearrange class for coordinating multiple agents
 from swarms import AgentRearrange
