@@ -9,13 +9,18 @@ from llama_index.embeddings import get_embedding
 class LlamaPineconeDB:
     """Manage document indexing and querying using Pinecone and LlamaIndex for memory."""
 
-    def __init__(self, data_dir: str = "docs", pinecone_api_key: str = "", pinecone_env: str = "us-west1-gcp") -> None:
+    def __init__(self, data_dir: str = "docs", pinecone_api_key: str = "", pinecone_env: str = "us-east1-aws") -> None:
         self.data_dir = data_dir
         self.index = None
         
-        # Initialize Pinecone
+        # Initialize Pinecone with the specified environment
         pinecone.init(api_key=pinecone_api_key, environment=pinecone_env)
-        self.pinecone_index = pinecone.Index("llama-memory-index")  # Change index name as needed
+        index_name = "llama-memory-index"
+
+        # Check if the index already exists; if not, create it
+        if index_name not in pinecone.list_indexes():
+            pinecone.create_index(index_name, dimension=768)  # assuming 768 for embedding vector size
+        self.pinecone_index = pinecone.Index(index_name)
 
         logger.info("Initialized LlamaPineconeDB")
         data_path = Path(self.data_dir)
@@ -31,6 +36,7 @@ class LlamaPineconeDB:
             documents = SimpleDirectoryReader(self.data_dir).load_data()
             for doc in documents:
                 embedding = get_embedding(doc.text)  # Get embedding for document text
+                # Use doc id and embedding in upsert
                 self.pinecone_index.upsert([(doc.id, embedding)])
             logger.success(f"Documents indexed successfully from {self.data_dir}")
         except Exception as e:
@@ -70,7 +76,7 @@ if pinecone_api_key:
     llama_pinecone_db = LlamaPineconeDB(
         data_dir="docs",
         pinecone_api_key=pinecone_api_key,
-        pinecone_env="us-west1-gcp"
+        pinecone_env="us-east1-aws"  # Free tier environment
     )
     response = llama_pinecone_db.query("What is the medical history of patient 1?")
     print(response)
