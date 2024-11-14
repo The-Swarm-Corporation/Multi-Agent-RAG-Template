@@ -1,3 +1,7 @@
+
+import os
+WORKSPACE_DIR = "C:/Users/Patrick Devaney/Desktop/Multi-Agent-RAG-Template/multi_agent_rag"
+os.environ["WORKSPACE_DIR"] = WORKSPACE_DIR
 # Import the AgentRearrange class for coordinating multiple agents
 from swarms import AgentRearrange
 

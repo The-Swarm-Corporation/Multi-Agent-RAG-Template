@@ -4,6 +4,7 @@ from faker import Faker
 import random
 from datetime import datetime, timedelta
 from llama_index.embeddings import get_embedding
+from llama_index import SimpleVectorStore
 
 fake = Faker()
 
@@ -26,8 +27,7 @@ allergies = [
 
 # Initialize Pinecone
 pinecone.init(api_key=os.getenv("PINECONE_API_KEY"), environment=os.getenv("PINECONE_ENV"))
-pinecone_index = pinecone.Index("llama-memory-index")
-
+pinecone_index = pinecone.Index("medical")  # for our medical example, update with your actual index name
 
 def generate_vitals():
     return {
@@ -38,7 +38,6 @@ def generate_vitals():
         "Weight": f"{random.randint(120,220)} lbs",
         "Height": f"{random.randint(60,75)} inches",
     }
-
 
 def generate_patient_history():
     num_visits = random.randint(3, 8)
@@ -59,12 +58,11 @@ def generate_patient_history():
 
     return history
 
-
 def send_to_pinecone(patient_id, document_text):
     """Embed and index patient document to Pinecone."""
     embedding = get_embedding(document_text)  # Generate embedding for the document text
-    pinecone_index.upsert([(patient_id, embedding)])  # Upsert to Pinecone
-
+    # Upsert the embedding to the Pinecone index
+    pinecone_index.upsert([(patient_id, embedding)])  # Ensure this format matches Pinecone's expected input
 
 def create_patient_file(patient_id):
     """Create a patient record and send it to Pinecone."""
@@ -126,13 +124,11 @@ def create_patient_file(patient_id):
         document_text = f.read()
     send_to_pinecone(patient_id, document_text)
 
-
 def main():
     num_patients = 10  # Change this number to generate more or fewer patient records
     for i in range(num_patients):
         create_patient_file(f"P{str(i+1).zfill(6)}")
     print(f"Generated {num_patients} patient records in the 'docs' directory and indexed them in Pinecone.")
-
 
 if __name__ == "__main__":
     main()
